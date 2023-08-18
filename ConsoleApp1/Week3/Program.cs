@@ -153,13 +153,13 @@ public class Dealer : Player
 }
 
 // 블랙잭 게임을 구현하세요. 
-public class Blackjack
+public class Program
 {
     private Deck Deck;
     private Player Player;
     private Dealer Dealer;
 
-    public Blackjack(Deck deck, Player player, Dealer dealer)
+    public Program(Deck deck, Player player, Dealer dealer)
     {
         Deck = deck;
         Player = player;
@@ -181,7 +181,7 @@ public class Blackjack
     }
 }
 
-class Program
+class BlackJack
 {
     static bool isStay = false;
 
@@ -190,7 +190,7 @@ class Program
         Deck deck = new();
         Player player = new();
         Dealer dealer = new();
-        Blackjack blackjack = new(deck, player, dealer);
+        Program blackjack = new(deck, player, dealer);
 
         blackjack.StartGame();
         int dealerScore = dealer.Hand.GetTotalValue();

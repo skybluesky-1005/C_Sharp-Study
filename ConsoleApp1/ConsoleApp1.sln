@@ -5,9 +5,9 @@ VisualStudioVersion = 17.6.33829.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week1", "ConsoleApp1\Week1.csproj", "{4B26C8CB-7AB6-45DB-A2EE-A5F5ED5714CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week2", "ConsoleApp2\Week2.csproj", "{C368579E-607B-4EBF-AD4C-8A42EB130C74}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Week2", "ConsoleApp2\Week2.csproj", "{C368579E-607B-4EBF-AD4C-8A42EB130C74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Week3", "Week3\Week3.csproj", "{0A93B6D7-7F48-4657-A639-57ECE9099289}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlackJack", "Week3\BlackJack.csproj", "{0A93B6D7-7F48-4657-A639-57ECE9099289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
